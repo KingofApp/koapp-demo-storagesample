@@ -1,0 +1,16 @@
+{
+  "name": "Storage Sample",
+  "identifier": "storagesample",
+  "type": "A",
+  "icon": "save",
+  "showOn": {
+    "menu": true,
+    "market": true,
+    "dragDrop": true
+  },
+  "view": "modules/storagesample/index.html",
+  "files": ["modules/storagesample/controller.js"],
+  "scope": {
+    "value": "X"
+  }
+}

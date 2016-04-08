@@ -1,0 +1,15 @@
+<div class="module storagesample" ng-controller="storagesampleController">
+
+  <koa-card>
+    <div class="card-content">
+      <koa-input name="sadsa" ng-model="storage.name" required></koa-input>
+    </div>
+    <div class="card-actions">
+      <koa-button ng-click="save()">Save</koa-button>
+    </div>
+  </koa-card>
+  <div ng-repeat="item in list" >
+    {{ item }}
+  </div>
+  <p>Specific: {{specific}}</p>
+</div>
